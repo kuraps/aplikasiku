@@ -5,24 +5,27 @@
     android:background="@drawable/login_gradient_animation"
     android:id="@+id/bg_gradient">
 
-	<ImageView 
-	    android:transitionName="1"
-	    android:layout_width="match_parent"
-	    android:layout_height="280dp"
-	    android:layout_centerHorizontal="true"
-	    android:src="@drawable/login_illu"
-	    android:id="@+id/img_illu"
-	    android:layout_above="@+id/sheet"
-	    />
-
 	<RelativeLayout 
 	    android:transitionName="2"
 	    android:layout_width="match_parent"
-	    android:layout_height="420dp"
-	    android:layout_alignParentBottom="true"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="25dp"
 	    android:id="@+id/sheet"
 	    android:background="@drawable/bottom_sheet"
 	    >
+	    
+	    
+	<ImageView 
+	    android:transitionName="1"
+	    android:layout_alignParentTop="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:layout_marginTop="25dp"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/login_illu"
+	    android:id="@+id/img_illu"
+	    />
+	    
 	    
 	    <TextView 
 	    android:transitionName="3"
@@ -31,7 +34,7 @@
 	        android:text="Welcome"
 	        android:textColor="#FF000000"
 	        android:textSize="30sp"
-	        android:layout_alignParentTop="true"
+	        android:layout_below="@+id/img_illu"
 	        android:layout_marginTop="25dp"
 	        android:layout_centerHorizontal="true"
 	        android:gravity="center"

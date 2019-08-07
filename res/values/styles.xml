@@ -20,6 +20,7 @@
         <item name="android:windowFullscreen">true</item> //aplikasi keadaan mode fulscreen
         <item name="android:windowNoTitle">true</item> //tidak ada title diactionbar
         <item name="android:windowActionBar">false</item>// tidak ada actionbar
+        <item name="android:windowActivityTransitions">true</item> // mengaktifkan dan mengijinkan transisi animasi 
     </style>
 
 </resources>
