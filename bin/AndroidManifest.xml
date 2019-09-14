@@ -26,6 +26,14 @@
             android:name=".LoginActivityShared"
             android:label="@string/title_activity_login_activity_shared" >
         </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".RegisterActivityDone"
+            android:label="@string/title_activity_register_activity_done" >
+        </activity>
     </application>
 
 </manifest>

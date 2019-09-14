@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/login_gradient_animation"
+    android:fitsSystemWindows="true"
+    android:id="@+id/regist_body">
+
+	<ScrollView 
+	    android:scrollbars="none"
+	    android:id="@+id/scrollview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentBottom="true"
+	    >
+	    
+	    <RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="25dp"
+		    android:id="@+id/regist_background"
+		    android:background="@drawable/menudown_rounded">
+	        
+	        <ImageView 
+			    android:layout_width="120dp"
+			    android:layout_height="120dp"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginTop="25dp"
+			    android:layout_marginLeft="30dp"
+	            android:src="@drawable/regist_illustration"
+	            android:id="@+id/regist_illu"
+	            />
+	        
+	        <LinearLayout 
+	            android:orientation="horizontal"
+	            android:layout_width="30dp"
+	            android:layout_height="30dp"
+	            android:elevation="1dp"
+	            android:layout_marginTop="20dp"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginRight="15dp"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/circle_yellow"
+	            android:gravity="center"
+	            android:id="@+id/regist_close"
+	            >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="X"
+	            android:textColor="#fff"
+	            android:textSize="20sp"
+	            android:id="@+id/regist_tv0"/>
+	        </LinearLayout>
+	        
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_illu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="25dp"
+	            android:gravity="center"
+	            android:text="Register"
+	            android:textColor="#ff000000"
+	            android:textSize="30sp"
+	            android:id="@+id/regist_tv1"/>
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_tv1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="5dp"
+	            android:gravity="center"
+	            android:text="Please fill input below"
+	            android:textColor="#FF8E9396"
+	            android:textSize="18sp"
+	            android:id="@+id/regist_tv2"/>
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_tv2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="30dp"
+	            android:gravity="center"
+	            android:text="Full Name"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:id="@+id/regist_tv3"/>
+	        
+	        <EditText 
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:lines="1"
+	            android:lineSpacingExtra="3dp"
+	            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	            android:maxLength="40"
+	            android:layout_below="@+id/regist_tv3"
+	            android:layout_marginTop="10dp"
+	            android:id="@+id/regist_ed1"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginRight="30dp"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:layout_weight="1"
+	            android:singleLine="true"
+	            android:background="@drawable/edittext"
+	            />
+	        
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_ed1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="10dp"
+	            android:gravity="center"
+	            android:text="Email"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:id="@+id/regist_tv4"/>
+	        
+	        <EditText 
+	            android:hint="example@gmail.com"
+	            android:inputType="textEmailAddress"
+	            android:textColorHint="#908e9396"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:lines="1"
+	            android:lineSpacingExtra="3dp"
+	            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	            android:maxLength="40"
+	            android:layout_below="@+id/regist_tv4"
+	            android:layout_marginTop="10dp"
+	            android:id="@+id/regist_ed2"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginRight="30dp"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:layout_weight="1"
+	            android:singleLine="true"
+	            android:background="@drawable/edittext"
+	            />
+	        
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_ed2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="10dp"
+	            android:gravity="center"
+	            android:text="Password"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:id="@+id/regist_tv5"/>
+	        
+	        <EditText 
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:lines="1"
+	            android:lineSpacingExtra="3dp"
+	            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	            android:maxLength="20"
+	            android:inputType="textPassword"
+	            android:layout_below="@+id/regist_tv5"
+	            android:layout_marginTop="10dp"
+	            android:id="@+id/regist_ed3"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginRight="30dp"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:layout_weight="1"
+	            android:singleLine="true"
+	            android:background="@drawable/edittext"
+	            />
+	      
+	        <TextView 
+	            android:layout_below="@+id/regist_ed3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="15dp"
+	            android:gravity="center"
+	            android:text="Accept Agreement"
+	            android:textColor="#0000EE"
+	            android:textSize="15sp"
+	            android:id="@+id/regist_tv6"/>
+	        
+	        
+	        <TextView 
+	            android:layout_below="@+id/regist_ed3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="30dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginTop="15dp"
+	            android:gravity="center"
+	            android:text="2019 KURAPS"
+	            android:textColor="#FF8E9396"
+	            android:textSize="15sp"
+	            android:id="@+id/regist_tv7"/>
+	        
+	        <Button
+	            android:background="@drawable/button"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginRight="30dp"
+	            android:layout_marginTop="30dp"
+	            android:layout_marginBottom="30dp"
+	            android:layout_centerHorizontal="true"
+	            android:gravity="center"
+	            android:text="REGISTER"
+	            android:textColor="#FFF"
+	            android:textSize="23sp"
+	            android:id="@+id/regist_btn"
+	            android:layout_below="@+id/regist_tv7"
+	            />
+	            
+	        
+	    </RelativeLayout>
+	    
+	    
+	</ScrollView>
+    
+    
+</RelativeLayout>

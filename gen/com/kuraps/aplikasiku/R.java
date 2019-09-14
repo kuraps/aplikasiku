@@ -28,20 +28,42 @@ public final class R {
         public static final int bg_two=0x7f020001;
         public static final int bottom_sheet=0x7f020002;
         public static final int button=0x7f020003;
-        public static final int edittext=0x7f020004;
-        public static final int edittext_bg=0x7f020005;
-        public static final int edittext_bg_pressed=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int login_gradient_animation=0x7f020008;
-        public static final int login_illu=0x7f020009;
+        public static final int circle_yellow=0x7f020004;
+        public static final int edittext=0x7f020005;
+        public static final int edittext_bg=0x7f020006;
+        public static final int edittext_bg_pressed=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int login_gradient_animation=0x7f020009;
+        public static final int login_illu=0x7f02000a;
+        public static final int menudown_rounded=0x7f02000b;
+        public static final int regist_done_illu=0x7f02000c;
+        public static final int regist_illustration=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
+        public static final int action_settings=0x7f09001e;
         public static final int bg_gradient=0x7f090000;
         public static final int btn1=0x7f09000b;
+        public static final int btn_done=0x7f09001d;
         public static final int ed1=0x7f090006;
         public static final int ed2=0x7f090008;
         public static final int img_illu=0x7f090001;
+        public static final int regist_background=0x7f09000e;
+        public static final int regist_body=0x7f09000c;
+        public static final int regist_btn=0x7f09001c;
+        public static final int regist_close=0x7f090010;
+        public static final int regist_ed1=0x7f090015;
+        public static final int regist_ed2=0x7f090017;
+        public static final int regist_ed3=0x7f090019;
+        public static final int regist_illu=0x7f09000f;
+        public static final int regist_tv0=0x7f090011;
+        public static final int regist_tv1=0x7f090012;
+        public static final int regist_tv2=0x7f090013;
+        public static final int regist_tv3=0x7f090014;
+        public static final int regist_tv4=0x7f090016;
+        public static final int regist_tv5=0x7f090018;
+        public static final int regist_tv6=0x7f09001a;
+        public static final int regist_tv7=0x7f09001b;
+        public static final int scrollview=0x7f09000d;
         public static final int sheet=0x7f090002;
         public static final int tv1=0x7f090003;
         public static final int tv2=0x7f090004;
@@ -53,16 +75,22 @@ public final class R {
     public static final class layout {
         public static final int activity_login=0x7f030000;
         public static final int activity_login_activity_shared=0x7f030001;
+        public static final int activity_register=0x7f030002;
+        public static final int activity_register_activity_done=0x7f030003;
     }
     public static final class menu {
         public static final int login=0x7f080000;
         public static final int login_activity_shared=0x7f080001;
+        public static final int register=0x7f080002;
+        public static final int register_activity_done=0x7f080003;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
         public static final int title_activity_login_activity_shared=0x7f060003;
+        public static final int title_activity_register=0x7f060004;
+        public static final int title_activity_register_activity_done=0x7f060005;
     }
     public static final class style {
         /** 

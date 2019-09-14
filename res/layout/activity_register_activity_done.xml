@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/login_gradient_animation"
+    android:fitsSystemWindows="true"
+    android:id="@+id/regist_body" >
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="350.0dp"
+	    android:background="@drawable/menudown_rounded"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:layout_centerVertical="true"
+	    >
+	    
+	    <ImageView
+	        android:id="@+id/regist_illu"
+	        android:layout_width="fill_parent"
+	        android:layout_height="120dp"
+	        android:layout_marginTop="25dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:src="@drawable/regist_done_illu"
+	        />
+	    
+	    <LinearLayout 
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:id="@+id/regist_close"
+	        android:background="@drawable/circle_yellow"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginRight="15dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:elevation="1dp"
+	        android:gravity="center"
+	        >
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="X"
+	            android:textColor="#fff"
+	            android:gravity="center"
+	            android:id="@+id/regist_tv0"
+	            android:textStyle="bold"
+	            android:textSize="20sp"
+	            />
+	        
+	    </LinearLayout>
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="Done! We sent you a mail"
+	            android:textColor="#ff000000"
+	            android:gravity="center"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="25dp"
+	            android:layout_below="@+id/regist_illu"
+	            android:id="@+id/regist_tv1"
+	            android:textSize="20sp"
+	            />
+	        
+	    
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="Please confirm your mail to continue"
+	            android:textColor="#ff8e9396"
+	            android:gravity="center"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_below="@+id/regist_tv1"
+	            android:id="@+id/regist_tv2"
+	            android:textSize="15sp"
+	            />
+	    
+	    	<Button 
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="40dp"
+	    	    android:background="@drawable/button"
+	    	    android:text="OPEN MAIL"
+	    	    android:textSize="20sp"
+	    	    android:textColor="#fff"
+	    	    android:id="@+id/btn_done"
+	    	    android:layout_marginLeft="30dp"
+	    	    android:layout_marginRight="30dp"
+	    	    android:layout_marginBottom="30dp"
+	    	    android:layout_alignParentBottom="true"
+	    	    android:layout_centerHorizontal="true"
+	    	    />
+	        
+	        
+	</RelativeLayout>
+
+</RelativeLayout>

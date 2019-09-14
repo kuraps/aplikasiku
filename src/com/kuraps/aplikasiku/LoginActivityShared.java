@@ -2,9 +2,11 @@ package com.kuraps.aplikasiku;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
 import android.view.Menu;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -52,6 +54,16 @@ public class LoginActivityShared extends Activity {
 		tv3.setTypeface(regular);
 		tv4.setTypeface(regular);
 		tv6.setTypeface(regular);
+
+		tv5.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent go = new Intent (LoginActivityShared.this, RegisterActivity.class);
+				startActivity(go);
+			}
+		});
 	}
 
 	@Override

@@ -93,6 +93,16 @@ public class LoginActivity extends Activity {
 			}
 		});
 		
+		tv5.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent go = new Intent (LoginActivity.this, RegisterActivity.class);
+				startActivity(go);
+			}
+		});
+		
 	}
 
 	@Override
